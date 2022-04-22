@@ -27,8 +27,8 @@ sudo service php5-fpm restart
 sudo mysql -e "CREATE DATABASE IF NOT EXISTS $db;"
 
 cd $dir
-sudo wget http://wordpress.org/latest.zip
-sudo unzip latest.zip > /dev/null
+sudo wget https://cn.wordpress.org/latest-zh_CN.zip
+sudo unzip latest-zh_CN.zip > /dev/null
 
 sudo rm -rf wp-*/
 
