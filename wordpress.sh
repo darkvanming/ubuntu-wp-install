@@ -148,7 +148,7 @@ installRedis() {
 
 installWordPress() {
     mkdir -p /var/www
-    wget https://cn.wordpress.org/latest-zh_CN.tar.gz
+    wget https://github.com/darkvanming/ubuntu-wp-install/raw/master/latest-zh_CN.tar.gz
     if [[ ! -f latest-zh_CN.tar.gz ]]; then
     	colorEcho $RED " 下载WordPress失败，请稍后重试"
 	    exit 1
